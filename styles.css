@@ -26,14 +26,14 @@ body {
     color: white;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 40px;
 }
 
 .logo {
     font-size: 30px;
     font-weight: bold;
     display: flex;
-    gap: 8px;
+    gap: 16px;
     margin-left: 20px;
 }
 
@@ -69,6 +69,30 @@ a:visited {
 
 .header {
     grid-area: header;
+}
+
+.header img[src*="svg"] {
+    width: 25px;
+}
+
+.profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.welcome img {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+}
+
+button {
+    color: white;
+    background-color: #38bdf8;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 30px;
 }
 
 .content {
