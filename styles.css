@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'robotoregular';
+    src: url('fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('fonts/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     margin: 0;
 }
@@ -14,6 +22,32 @@ body {
 .sidebar {
     grid-area: sidebar;
     background-color: #38bdf8;
+    color: white;
+    font-family: "robotoregular", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    gap: 8px;
+    margin-left: 20px;
+}
+
+.logo img {
+    width: 60px;
+}
+
+.sidebar ul {
+    font-size: 22px;
+    font-weight: bold;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .header {
