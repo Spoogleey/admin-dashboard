@@ -8,6 +8,7 @@
 
 body {
     margin: 0;
+    font-family: "robotoregular", sans-serif;
 }
 
 .dashboard-container {
@@ -23,7 +24,6 @@ body {
     grid-area: sidebar;
     background-color: #38bdf8;
     color: white;
-    font-family: "robotoregular", sans-serif;
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -41,6 +41,10 @@ body {
     width: 60px;
 }
 
+li img {
+    width: 30px;
+}
+
 .sidebar ul {
     font-size: 22px;
     font-weight: bold;
@@ -48,6 +52,19 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.sidebar li {
+    display: flex;
+    gap: 28px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
 }
 
 .header {
